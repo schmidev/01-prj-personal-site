@@ -1,1 +1,62 @@
 /* Add you CSS here */
+
+/* Make the website responsive to different screen sizes */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e6b110;
+  text-align: center; /* Center all text on the website */
+}
+
+header {
+  background-color: #1a237e;
+  color: white;
+  padding: 30px 10px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin: 0 0 10px 0;
+}
+
+p {
+  font-size: 1.1em;
+  margin: 0;
+}
+
+section {
+  text-align: center; /* Make sure all section text is centered */
+}
+
+/* Style for list items in Projects and Skills sections */
+#projects ul li,
+#skills ul li {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+  list-style-type: none; /* Remove default bullet */
+}
+
+#projects ul,
+#skills ul {
+  padding: 0; /* Remove default padding */
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 600px) {
+  header {
+    padding: 20px 5px;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+  p {
+    font-size: 1em;
+  }
+}
