@@ -34,18 +34,22 @@ section {
 /* Style for list items in Projects and Skills sections */
 #projects ul li,
 #skills ul li {
-  background-color: #fff;
+  display: inline-block; /* Make each box only as wide as its content */
+  background-color: #1a237e;
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 12px;
   margin-bottom: 10px;
+  margin-right: 8px; /* Add space between boxes */
   box-shadow: 0 2px 4px rgba(0,0,0,0.04);
   list-style-type: none; /* Remove default bullet */
+  color: #fff; /* Make text readable on dark background */
 }
 
 #projects ul,
 #skills ul {
   padding: 0; /* Remove default padding */
+  text-align: center; /* Center the boxes in the section */
 }
 
 /* Responsive styles for smaller screens */
